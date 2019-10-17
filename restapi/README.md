@@ -1,7 +1,17 @@
-REST API WITH MONGO @ EXPRESS
+## REST API WITH MONGO @ EXPRESS
 
+## Functionality
 
-Install package.json file
+** Post the data
 
-Run:
-npm start
+** Get the data
+
+** Update the data
+
+** Delete the data
+
+## Run the code
+
+** npm i 
+
+** npm start

@@ -62,13 +62,15 @@ module.exports = function (app) {
             })
         }
     });
-    //update the id
+    //update the post By id
     app.patch('/:postId', async (req, res) => {
         try {
             const update = await Posts.updateOne({
                 _id: req.params.postId
             }, {
-                $set: {title:req.body.title}
+                $set: {
+                    title: req.body.title
+                }
             })
             res.json(update)
         } catch (err) {
